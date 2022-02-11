@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Model Viewer </title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script> 
+        <style>
+             model-viewer{
+                 width: 400px;
+                 height: 600px;
+                 margin: 0 auto;
+             }
+        </style>
+    </head>
+    <body>
+        <model-viewer src="https://cdn.glitch.global/54b42dfb-1ac3-4d3b-9b90-1bbb7c442994/Experimenting_draco_compression.glb?v=1643628333434" camera-controls auto-rotate ar>
+      <button slot="ar-button" style="background-color: rgb(170,252,255); border-radius: 6px; border: 5px
+                                      ; position: absolute; bottom: 16px; Right: 0px; ">
+      🥣 View In reality
+  </button></model-viewer>
+    </body>
+</html>
